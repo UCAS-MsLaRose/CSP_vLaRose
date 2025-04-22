@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>JavaScript Notes</title>
+        <script src="notes.js"></script>
+        <style>
+            #btn{
+                height: 50px;
+                width: 100px;
+                background-color: lightgrey;
+                border-radius: 3px;
+                border: 1px solid gray;
+            }
+            #image{
+                height: 150px;
+                width: auto;
+            }
+            #patric{
+                display: none;
+                height: 300px;
+                width: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="title" onclick="show()">Javascript Notes</h1>
+        <p id="pop" onclick="popup()">Don't click me!</p>
+        <button id="btn" onclick="hello()" 
+        onmouseenter="enter()" 
+        onmouseout="out()"
+        onmousedown="down()"
+        onmouseup="enter()"
+        >Click Me!</button>
+        <br>
+        <br>
+        <img id="image" alt="Timp" onmouseover="change()" src="https://upload.wikimedia.org/wikipedia/commons/1/12/Mount_Timpanogos_-_01-07-08.jpg">
+        <br>
+        <br>
+        <img id="patric" alt="meme" src="https://miro.medium.com/v2/resize:fit:1000/0*kjcbVX8Y9TFoHGDO.png">
+    </body>
+</html>
